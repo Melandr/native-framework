@@ -1,4 +1,4 @@
-import { WFMComponent } from "../framework";
+import { WFMComponent } from "framework";
 
 class AppComponent extends WFMComponent {
     constructor(config) {
