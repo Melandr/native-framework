@@ -3,11 +3,6 @@ import { WFMComponent } from "framework";
 class DirectivePageComponent extends WFMComponent {
     constructor(config) {
         super(config);
-
-        this.data = {
-            title: "Главная страница работает!!!",
-            linkTitle: "Перейти на страницу табов",
-        };
     }
 }
 

@@ -3,6 +3,7 @@ import { appComponent } from "./app.component";
 import { appHeader } from "./shared/app.header";
 import { appRoutes } from "./app.routes";
 import { appHoverDirective } from "./shared/directives/hover.directive";
+import { appMultiPipe } from "./shared/pipes/multi.pipe";
 
 class AppModule extends WFMModule {
     constructor(config) {
@@ -15,4 +16,5 @@ export const appModule = new AppModule({
     bootstrap: appComponent,
     routes: appRoutes,
     directives: [appHoverDirective],
+    pipes: [appMultiPipe],
 });
