@@ -1,5 +1,5 @@
 import { WFMComponent } from "framework";
-import { $ } from "../../framework/tools/dom";
+import { $ } from "framework";
 
 class TabsPageComponent extends WFMComponent {
     constructor(config) {
