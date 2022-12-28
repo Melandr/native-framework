@@ -12,12 +12,16 @@ const _ = {
     },
 
     isNull(d) {
-        return d === "undefined";
+        return d === null;
     },
 
-    isString(d){
+    isString(d) {
         return typeof d === "string";
-    }
+    },
+
+    isEmpty(d) {
+        return d.length && d.length === 0;
+    },
 };
 
 export { _ };

@@ -65,7 +65,7 @@ class DOMManipulator {
             return this.nativeElement.getAttribute(name);
         }
 
-        this.nativeElement.setAttribute(name);
+        this.nativeElement.setAttribute(name, value);
         return this;
     }
 
